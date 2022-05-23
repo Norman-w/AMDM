@@ -19,7 +19,7 @@ namespace AMDM_Domain
             this.AdvertVideosSetting = new AdvertVideosSettingClass();
             this.AdvertVideosSetting.SpeedRate = 5.0f;
             this.AdvertVideosSetting.SpareTimeADVideosDir =
-                //Application.StartupPath.TrimEnd('\\') + 
+                //Application.StartupPath.TrimEnd('\\') +
                 "ADVideos\\SpareTime";
             this.AdvertVideosSetting.MedicinesGettingADVideosDir =
                 //Application.StartupPath.TrimEnd('\\') +
@@ -51,12 +51,9 @@ namespace AMDM_Domain
 
             #region 默认sql设置
             this.SqlConfig = new SqlConfigClass();
-            //this.SqlConfig.IP = "qpmysqlserver.mysql.zhangbei.rds.aliyuncs.com";
             this.SqlConfig.IP = "127.0.0.1";
-            //this.SqlConfig.User = "enni";
             this.SqlConfig.User = "root";
-            //this.SqlConfig.Pass = "Wsi8uokl";
-            this.SqlConfig.Pass = "woshinidie";
+            this.SqlConfig.Pass = "";
             this.SqlConfig.Database = "amdm_local";
             //this.SqlConfig.Port = 3306;
             this.SqlConfig.Port = 10000;
@@ -97,7 +94,7 @@ namespace AMDM_Domain
 
             #region 外设
             this.DevicesSetting = new DevicesSettingClass();
-            
+
             #region 详单打印机
             this.DevicesSetting.Printer58MMSetting = new DevicesSettingClass.Printer58MMSettingClass();
             this.DevicesSetting.Printer58MMSetting.PrinterName = "Zan 彩色图像打印机";
@@ -172,7 +169,7 @@ namespace AMDM_Domain
             this.ControlPanelInterfaceServerSetting.HttpServerPort = 8080;
             #endregion
 
-            
+
             //GetBestGridMode = GetMedicinesObjectSortModeEnum.ExpirationDateAsc;
 
             ExpirationStrictControlSetting = new ExpirationStrictControlSettingClass();
@@ -199,7 +196,7 @@ namespace AMDM_Domain
             TimeSignalGeneratorSetting.SoftwarePartDetectionPerTimeIntervalMS = 8000;
 
 
-            //2022年1月21日09:36:17 
+            //2022年1月21日09:36:17
             HISServerConnectorDllFilePath = @"D:\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\FakeHISServerConnector.dll";
         }
 

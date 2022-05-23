@@ -10,8 +10,8 @@ using AMDMClientSDK.Domain;
 /*2021年12月8日17:29:46 自动取药测试器,现在第一步开发的功能是,每一次只取一个药,连续把整个药仓的药品取空.
  * 每次取药之前,获取一下所有的药品库存,然后在里面开一盒药品.然后开始自动扫码,自动点击开始取药,然后等取完了药品以后自动开始下一个任务
  * 目的是为了测试整个流程中有没有出现错误.
- * 
- * 
+ *
+ *
  * 流程和函数
  *  获取库存,自动创建单子保存,返回单号
  *  触发扫码函数
@@ -35,7 +35,7 @@ public class AutoMedicinesGettingTester
         AMDMApiProcessor p = new AMDMApiProcessor();
         if (System.Diagnostics.Debugger.IsAttached)
         {
-            p.SetClient(new AMDM.Manager.SQLDataTransmitter("192.168.2.191", "root", "woshinidie", "amdm_local", 10000));
+            p.SetClient(new AMDM.Manager.SQLDataTransmitter("192.168.2.191", "root", "", "amdm_local", 10000));
         }
         GridInventoryGetRequest r = new GridInventoryGetRequest();
         r.StockIndex = 0;
@@ -66,7 +66,7 @@ public class AutoMedicinesGettingTester
                 //创建一个付药单
                 #region 创建付药单
                 string hisServerIp = "192.168.2.122";
-                MysqlClient sqlClient = new MysqlClient(hisServerIp, "root", "woshinidie", "his_server", 9999);
+                MysqlClient sqlClient = new MysqlClient(hisServerIp, "root", "", "his_server", 9999);
                 //根据给药单随机创建数量.
                 HISMedicineOrder order = new HISMedicineOrder();
                 order.Balance = true;
@@ -82,7 +82,7 @@ public class AutoMedicinesGettingTester
                 order.Id = sqlClient.InsertData<FakeHISMedicineInfo>(ipr);
                 Utils.LogFinished("插入付药单完成");
                 List<object> details = new List<object>();
-                
+
                     HISMedicineOrderDetail detail = new HISMedicineOrderDetail()
                     {
                         Canceled = false,
@@ -114,7 +114,7 @@ public class AutoMedicinesGettingTester
 
                     order.TotalCount += detail.Count;
                     order.EntriesCount++;
-                
+
 
 
                 SqlObjectUpdaterParamters upr = new SqlObjectUpdaterParamters();

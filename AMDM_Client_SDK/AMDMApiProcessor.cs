@@ -23,7 +23,7 @@ public class AMDMApiProcessor
     #endregion
     public AMDMApiProcessor()
     {
-        
+
 
         //注意这里值能使用主程序集中的appSettings 也就是如果用web调用,那就需要再web中指定这些设置.
         string ip = ConfigurationManager.AppSettings["client_side_sdk_ip"];
@@ -33,7 +33,7 @@ public class AMDMApiProcessor
         string port_str = ConfigurationManager.AppSettings["client_side_sdk_port"];
         this.client_side_sdk_snapshot_local_path = ConfigurationManager.AppSettings["client_side_sdk_snapshot_local_path"];
         this.client_side_sdk_snapshot_url_path = ConfigurationManager.AppSettings["client_side_sdk_snapshot_url_path"];
-        //client = new SQLDataTransmitter(ip, "root", "woshinidie", "amdm_local", 10000);
+        //client = new SQLDataTransmitter(ip, "root", "", "amdm_local", 10000);
         client = new SQLDataTransmitter(ip, user,pass,database, Convert.ToInt32(port_str));
     }
     public void SetClient(SQLDataTransmitter client)
@@ -43,7 +43,7 @@ public class AMDMApiProcessor
     public GetCurrentAllInventoryResponse DoGetCurrentAllInventoryRequest(GetCurrentAllInventoryRequest req, string session)
     {
         GetCurrentAllInventoryResponse rsp = req.AllocResponse();
-        
+
         rsp.Inventory = client.GetMedicinesInventory(req.StockIndex);
 
         return rsp;
@@ -62,7 +62,7 @@ public class AMDMApiProcessor
         }
         if (m.Stocks.Count == 0)
         {
-            
+
         }
         else
         {
@@ -137,7 +137,7 @@ public class AMDMApiProcessor
         {
             //if (mobj.FloorIndex ==11 && mobj.GridIndex == 0)
             //{
-                
+
             //}
             string gridKey = string.Format("{0}->{1}->{2}", mobj.StockIndex, mobj.FloorIndex, mobj.GridIndex);
             List<AMDM_MedicineObject_data> currentList = null;
@@ -220,7 +220,7 @@ public class AMDMApiProcessor
         //    int gridIndex = current.GridIndex;
         //    if (iTree.StocksInventory.ContainsKey(stockIndex) == false)
         //    {
-        //        iTree.StocksInventory.Add(stockIndex, new AMDM_StockInventory_forsort() { 
+        //        iTree.StocksInventory.Add(stockIndex, new AMDM_StockInventory_forsort() {
         //         StockIndex = stockIndex, TotalCount = 0, FloorsInventory = new Dictionary<int,AMDM_FloorInventory_forsort>()}
         //            );
         //    }
@@ -376,7 +376,7 @@ public class AMDMApiProcessor
         try
         {
             req.Validate();
-            
+
         }
         catch (Exception err)
         {
@@ -386,7 +386,7 @@ public class AMDMApiProcessor
         }
         try
         {
-            
+
             AMDM_Domain.AMDM_Medicine medicine = Newtonsoft.Json.JsonConvert.DeserializeObject<AMDM_Domain.AMDM_Medicine>(req.MedicineInfoJson);
             #region 先检查是否有这个药品的his码
             Dictionary<string,long> hasedMedicines = client.GetMedicinesIdByHISMedicineIdsList(new List<string>() {medicine.IdOfHIS});
@@ -439,7 +439,7 @@ public class AMDMApiProcessor
             req.Barcode,
             req.Company,
             req.BoxLongMM,
-            req.BoxWidthMM, 
+            req.BoxWidthMM,
             req.BoxHeightMM,
             req.CLMED,
             req.SLMED,
