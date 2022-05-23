@@ -91,7 +91,7 @@
     <Compile Include="Setting\LogServerServiceSettingClass.cs" />
     <Compile Include="Setting\MedicineAlertSettingClass.cs" />
     <Compile Include="Setting\MedicinePLCSetting.cs" />
-    <Compile Include="Setting\Setting.cs" />
+    <Compile Include="Setting\AMDMSetting.cs" />
     <Compile Include="Setting\SqlConfigClass.cs" />
     <Compile Include="Setting\TimeSignalGeneratorSettingClass.cs" />
     <Compile Include="Setting\TroubleshootingPlanSettingClass.cs" />
