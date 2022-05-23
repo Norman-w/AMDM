@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe.config
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\EasyNamedPipe.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\MysqlClient.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\MysqlClient.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\EasyNamedPipe.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\obj\Debug\LogServerService.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\obj\Debug\LogServerService.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\obj\Debug\LogServerService.pdb

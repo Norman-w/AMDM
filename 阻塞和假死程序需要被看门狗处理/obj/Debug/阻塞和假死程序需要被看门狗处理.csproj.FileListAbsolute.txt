@@ -1,0 +1,15 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\bin\Debug\阻塞和假死程序需要被看门狗处理.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\bin\Debug\阻塞和假死程序需要被看门狗处理.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.Form1.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\bin\Debug\阻塞和假死程序需要被看门狗处理.exe
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\bin\Debug\阻塞和假死程序需要被看门狗处理.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.Form1.resources
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.Properties.Resources.resources
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.csproj.GenerateResource.Cache
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.exe
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\阻塞和假死程序需要被看门狗处理\obj\Debug\阻塞和假死程序需要被看门狗处理.pdb

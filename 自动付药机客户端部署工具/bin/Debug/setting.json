@@ -1,0 +1,306 @@
+{
+  "TTSSpeakerVoice": null,
+  "MachineName": "潮咖医疗付药机",
+  "AdvertVideosSetting": {
+    "SpeedRate": 5.0,
+    "SpareTimeADVideosDir": "\\ADVideos\\SpareTime",
+    "MedicinesGettingADVideosDir": "\\ADVideos\\MedicinesGetting",
+    "MedicinesWaitBeenTakeADVideosDir": "\\ADVideos\\MedicinesComming",
+    "MedicinesHasBeenTakedAdVideosDir": "\\ADVideos\\PleaseCheck"
+  },
+  "LogServerServiceSetting": {
+    "PerHeartbeatsDelayMS": 4000,
+    "PipeServerLocation": ".",
+    "PipeServerName": "LogServerService"
+  },
+  "LastMedicineInfoAysncTime": null,
+  "FirstMedicineInfoAsyncTime": null,
+  "SqlConfig": {
+    "IP": "192.168.2.191",
+    "User": "root",
+    "Pass": "woshinidie",
+    "Database": "amdm_local",
+    "Port": 10000
+  },
+  "PlcSetting_西门子": {
+    "MainPLC": {
+      "IPAddress": "192.168.4.222",
+      "RackIndex": 0,
+      "SlotIndex": 1,
+      "DBNumber": 1,
+      "PerMMPulseCount": 80,
+      "PLCDataIndex": {
+        "Main": {
+          "Index": 100,
+          "DataType": 0
+        },
+        "X": {
+          "Index": 106,
+          "DataType": 1
+        },
+        "Y": {
+          "Index": 102,
+          "DataType": 1
+        },
+        "Grabber": {
+          "Index": 110,
+          "DataType": 0
+        },
+        "Times": {
+          "Index": 112,
+          "DataType": 0
+        },
+        "CommandCount": {
+          "Index": 120,
+          "DataType": 0
+        },
+        "CounterGetedMedicinesCount": {
+          "Index": 122,
+          "DataType": 0
+        },
+        "Unuse124": {
+          "Index": 124,
+          "DataType": 0
+        },
+        "CounterCoverdError": {
+          "Index": 126,
+          "DataType": 0
+        },
+        "MedicinesHasBeenTaked": {
+          "Index": 130,
+          "DataType": 0
+        },
+        "PrintAndSnapshot": {
+          "Index": 132,
+          "DataType": 0
+        },
+        "Restting": {
+          "Index": 114,
+          "DataType": 0
+        }
+      }
+    },
+    "StocksPLC": {},
+    "UseMainPLCSerialPort": true
+  },
+  "PlcSetting_台达": {
+    "MainPLC": {
+      "UseMainPLCSerialPort": true,
+      "SerialPortName": "COM5",
+      "Baudrate": 19200,
+      "Parity": 0,
+      "BitsCount": 8,
+      "StopBits": 1,
+      "RtsEnable": true,
+      "DeviceAddress": 100,
+      "DataBufferStartAddress": 4096,
+      "PerMMPulseCount": 80,
+      "PLCDataIndex": {
+        "Main": {
+          "Index": 100,
+          "DataType": 0
+        },
+        "X": {
+          "Index": 106,
+          "DataType": 1
+        },
+        "Y": {
+          "Index": 102,
+          "DataType": 1
+        },
+        "Grabber": {
+          "Index": 110,
+          "DataType": 0
+        },
+        "Times": {
+          "Index": 112,
+          "DataType": 0
+        },
+        "CommandCount": {
+          "Index": 120,
+          "DataType": 0
+        },
+        "CounterGetedMedicinesCount": {
+          "Index": 122,
+          "DataType": 0
+        },
+        "Unuse124": {
+          "Index": 124,
+          "DataType": 0
+        },
+        "CounterCoverdError": {
+          "Index": 126,
+          "DataType": 0
+        },
+        "MedicinesHasBeenTaked": {
+          "Index": 130,
+          "DataType": 0
+        },
+        "PrintAndSnapshot": {
+          "Index": 132,
+          "DataType": 0
+        },
+        "Restting": {
+          "Index": 114,
+          "DataType": 0
+        }
+      },
+      "PuttingBufferStartIndex": 100,
+      "GettingBufferStartIndex": 200,
+      "IsMain": true
+    },
+    "StocksPLC": {
+      "0": {
+        "SerialPortName": "COM5",
+        "Baudrate": 19200,
+        "Parity": 0,
+        "BitsCount": 8,
+        "StopBits": 1,
+        "RtsEnable": true,
+        "DeviceAddress": 100,
+        "DataBufferStartAddress": 4096,
+        "PerMMPulseCount": 80,
+        "PLCDataIndex": {
+          "Main": {
+            "Index": 100,
+            "DataType": 0
+          },
+          "X": {
+            "Index": 106,
+            "DataType": 1
+          },
+          "Y": {
+            "Index": 102,
+            "DataType": 1
+          },
+          "Grabber": {
+            "Index": 110,
+            "DataType": 0
+          },
+          "Times": {
+            "Index": 112,
+            "DataType": 0
+          },
+          "CommandCount": {
+            "Index": 120,
+            "DataType": 0
+          },
+          "CounterGetedMedicinesCount": {
+            "Index": 122,
+            "DataType": 0
+          },
+          "Unuse124": {
+            "Index": 124,
+            "DataType": 0
+          },
+          "CounterCoverdError": {
+            "Index": 126,
+            "DataType": 0
+          },
+          "MedicinesHasBeenTaked": {
+            "Index": 130,
+            "DataType": 0
+          },
+          "PrintAndSnapshot": {
+            "Index": 132,
+            "DataType": 0
+          },
+          "Restting": {
+            "Index": 114,
+            "DataType": 0
+          }
+        },
+        "PuttingBufferStartIndex": 100,
+        "GettingBufferStartIndex": 200,
+        "IsMain": false
+      }
+    },
+    "UseMainPLCSerialPort": true
+  },
+  "HardwareSetting": {
+    "Stock": {
+      "StockFloorCount": 12,
+      "MaxFloorsHeightMM": 960.0,
+      "MaxFloorWidthMM": 975.0,
+      "XOffsetFromStartPointMM": -19.0,
+      "YOffsetFromStartPointMM": 34.0,
+      "CenterDistanceBetweenTwoGrabbers": 0.0,
+      "FloorFixingsHeightMM": 20.0,
+      "MaxPerMedicineDepthMM": 200.0,
+      "MinPerMedicineDepthMM": 30.0,
+      "MinPerMedicineHeightMM": 5.0
+    },
+    "Floor": {
+      "NewFloorDefaultHeightMM": 80.0,
+      "FloorHeightMM": 80.0,
+      "FloorWidthMM": 975.0,
+      "FloorPanelHeightMM": 3.0,
+      "FloorSlopeAngle": 27.0,
+      "MinGridPaddingHeighMM": 3.0,
+      "UpPartFloorDepthMM": 760,
+      "DownPartFloorDepthMM": 500
+    },
+    "Grid": {
+      "PerGridMinWidthMM": 60.0,
+      "PerGridMaxWidthMM": 170.0,
+      "PerGridMoveStepWidthMM": 5,
+      "NewGridDefaultWidth": 100.0,
+      "GridWallWidthMM": 10.0,
+      "GridWallFixtureFullWidthMM": 30.0,
+      "MaxGridPaddingWidthMM": 7.0,
+      "MinGridPaddingWidthMM": 2.0
+    }
+  },
+  "DevicesSetting": {
+    "CameraSetting": {
+      "FPS": 0.0,
+      "CameraMonikerStringName": null,
+      "SavingDictionary": "D:\\MedicineDeliveryRecordSnapshot",
+      "MixRemainingHardDiskSpaceMB": 2048
+    },
+    "CCTVCaptureSetting": {
+      "Ip": "192.168.2.141",
+      "User": "admin",
+      "Pass": "yuntong8888",
+      "Port": 0,
+      "CameraChannelOfMedicineBucket": 0,
+      "CameraChannelOfInteractiveArea": 2,
+      "CameraChannelOfGrabbersAreaPos1": 1,
+      "CameraChannelOfGrabbersAreaPos2": 3,
+      "SavingDictionary": "D:\\MedicineDeliveryRecordSnapshot",
+      "MixRemainingHardDiskSpaceMB": 2048
+    },
+    "ICCardReaderAndCodeScanner2in1Setting": {
+      "portName": "COM3",
+      "baudRate": 9600,
+      "parity": 0,
+      "dataBits": 8,
+      "stopBits": 1
+    },
+    "Printer58MMSetting": {
+      "PrinterName": "Zan 彩色图像打印机",
+      "PaperWidthMM": 58.0,
+      "SaveBackupImage": true,
+      "SaveBackupImageFileDir": "D:\\MedicineDeliveryRecordSnapshot\\"
+    },
+    "StocksGridNumber485ShowerSetting": {
+      "portName": "COM1",
+      "baudRate": 9600,
+      "parity": 0,
+      "dataBits": 8,
+      "stopBits": 1
+    }
+  },
+  "UserInterfaceSetting": {
+    "MedicineOrderAutoHideWhenNoActionMS": 60000,
+    "NoticeShowerAutoHideMS": 5000
+  },
+  "ControlPanelInterfaceServerSetting": {
+    "HttpServerPort": 8080
+  },
+  "GetBestGridMode": 0,
+  "_可装入药机的药品有效期最少多少天": 10,
+  "_可装入药机的药品建议有效期大于多少天": 90,
+  "_已装入药机的药品有效期小于多少天时提醒": 30,
+  "HISServerConnectorDllFilePath": "D:\\Visual Studio 2008\\Projects\\测试\\FakeHISClient\\FakeHISServerConnector\\bin\\Debug\\FakeHISServerConnector.dll"
+}

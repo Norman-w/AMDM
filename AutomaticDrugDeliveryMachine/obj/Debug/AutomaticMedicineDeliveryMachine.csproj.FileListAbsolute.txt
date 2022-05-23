@@ -1,0 +1,16 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\bin\Debug\AutomaticDrugDeliveryMachine.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\bin\Debug\AutomaticDrugDeliveryMachine.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticMedicineDeliveryMachine.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.Form1.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticMedicineDeliveryMachine.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.pdb
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\bin\Debug\AutomaticDrugDeliveryMachine.exe
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\bin\Debug\AutomaticDrugDeliveryMachine.pdb
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.Form1.resources
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.Properties.Resources.resources
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticMedicineDeliveryMachine.csproj.GenerateResource.Cache
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.exe
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticDrugDeliveryMachine.pdb
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AutomaticDrugDeliveryMachine\obj\Debug\AutomaticMedicineDeliveryMachine.csprojResolveAssemblyReference.cache

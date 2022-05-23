@@ -1,0 +1,31 @@
+[2022-05-17 20:59:22.067][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2022-05-17 20:59:22.067][INF] The COM:Core ver is 6.1.4.42, 2020_05_27. Async:1.
+[2022-05-17 20:59:22.067][INF] This HCNetSDK ver is 6.1.4.42 Ver 2020_05_27.
+[2022-05-17 20:59:22.070][INF] Login dev 192.168.2.141:8000.
+[2022-05-17 20:59:22.072][INF] Private connect 192.168.2.141:8000 sock=1652 this=0x1ec1bc04 cmd=0x10000 port=51944
+[2022-05-17 20:59:22.072][INF] LogonDev1 in[192.168.2.141:8000]
+[2022-05-17 20:59:22.074][INF] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\libeay32.dll], hHandleRet[-337248256]
+[2022-05-17 20:59:22.074][DBG] Load libeay32.dll SUCC, Real Path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\libeay32.dll]
+[2022-05-17 20:59:22.075][INF] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\ssleay32.dll], hHandleRet[-333709312]
+[2022-05-17 20:59:22.075][DBG] Load ssleay32.dll SUCC, Real Path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\ssleay32.dll]
+[2022-05-17 20:59:22.075][ERR] SSLTRANSAPI::IsAllAPILoaded, OpenSSL_version Unload
+[2022-05-17 20:59:22.075][ERR] OpenSSL, Not All Function Loaded!
+[2022-05-17 20:59:22.075][INF] SSLTRANSAPI::PrintVersion, SSLeay_version info [OpenSSL 1.0.2t  10 Sep 2019]
+[2022-05-17 20:59:22.075][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[0], m_fnClientMethodV23
+[2022-05-17 20:59:23.952][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCVoiceTalk.dll] succ
+[2022-05-17 20:59:23.952][INF] AbilityAnalyze---Init-- start
+[2022-05-17 20:59:23.952][ERR] AbilityAnalyze---open zip package error, package path D:/Visual Studio 2008/Projects/≤‚ ‘/FakeHISClient/AMDM/bin/Debug/HKLib/LocalXml.zip
+[2022-05-17 20:59:23.952][INF] The COM:VoiceTalk ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.953][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCGeneralCfgMgr.dll] succ
+[2022-05-17 20:59:23.953][INF] The COM:HCGeneralCfgMgr ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.954][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCPlayBack.dll] succ
+[2022-05-17 20:59:23.954][INF] The COM:HCPlayback ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.956][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCIndustry.dll] succ
+[2022-05-17 20:59:23.956][INF] The COM:HCIndustry ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.957][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCDisplay.dll] succ
+[2022-05-17 20:59:23.958][INF] The COM:HCDisplay ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.959][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCPreview.dll] succ
+[2022-05-17 20:59:23.959][INF] The COM:Preview ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.960][DBG] load full path[D:\Visual Studio 2008\Projects\≤‚ ‘\FakeHISClient\AMDM\bin\Debug\HKLib\HCNetSDKCom/HCAlarm.dll] succ
+[2022-05-17 20:59:23.960][INF] The COM:HCAlarm ver is 6.1.4.42, 2020_05_27.
+[2022-05-17 20:59:23.972][INF] Private connect 192.168.2.141:8000 sock=1720 this=0x1ec1bc04 cmd=0x110154 port=51945

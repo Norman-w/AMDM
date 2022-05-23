@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\控制手柄.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\控制手柄.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\MyCode.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\websocket-sharp.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\Interop.SpeechLib.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\NormanFastJson.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\MyCode.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\websocket-sharp.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\bin\Debug\NormanFastJson.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.Form1.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\控制手柄\obj\Debug\控制手柄.csproj.GenerateResource.Cache

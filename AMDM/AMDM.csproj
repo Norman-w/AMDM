@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76D244E6-DFC4-4C73-87EE-F6379FACAAAB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMDM</RootNamespace>
+    <AssemblyName>AMDM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\..\..\Include\Aforge\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\..\..\..\Include\Aforge\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>..\..\..\..\Include\Aforge\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\..\..\Include\Aforge\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\..\..\Include\Aforge\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="LibVLCSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Include\VLC\0.0.8.0NET40\LibVLCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LibVLCSharp.WinForms">
+      <HintPath>..\..\..\..\Include\VLC\0.0.8.0NET40\LibVLCSharp.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Include\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\速配项目\QP\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NModbus">
+      <HintPath>..\packages\NModbus.3.0.72\lib\net45\NModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sharp7">
+      <HintPath>..\packages\Sharp7.1.1.79\lib\net40\Sharp7.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="ControlPanel控制面板\AlertManager.cs" />
+    <Compile Include="Manager管理器\UVLampManager.cs" />
+    <Compile Include="Modal模态全屏窗\BindingActionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\BindingActionsForm.Designer.cs">
+      <DependentUpon>BindingActionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Debug调试\DebugCommandServer.cs" />
+    <Compile Include="DllLoader单文件程序DLL加载器.cs" />
+    <Compile Include="Modal模态全屏窗\ExpirationDataSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\ExpirationDataSelectForm.Designer.cs">
+      <DependentUpon>ExpirationDataSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog对话框\FloorEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\FloorEditForm.Designer.cs">
+      <DependentUpon>FloorEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\DaySelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\DaySelectForm.Designer.cs">
+      <DependentUpon>DaySelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\MonthSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\MonthSelectForm.Designer.cs">
+      <DependentUpon>MonthSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\YearsSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\YearsSelectForm.Designer.cs">
+      <DependentUpon>YearsSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenMedicineOrderShower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenMedicineOrderShower.Designer.cs">
+      <DependentUpon>FullScreenMedicineOrderShower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenNoticeShower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenNoticeShower.Designer.cs">
+      <DependentUpon>FullScreenNoticeShower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenVideoShowerV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenVideoShowerV2.Designer.cs">
+      <DependentUpon>FullScreenVideoShowerV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenVideoShowerV3.cs" />
+    <Compile Include="Modal模态全屏窗\FullScreenVideoShower_bak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\FullScreenVideoShower_bak.Designer.cs">
+      <DependentUpon>FullScreenVideoShower_bak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponent控件\GridShower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIComponent控件\GridShower.Designer.cs">
+      <DependentUpon>GridShower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\InitializerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal模态全屏窗\InitializerForm.Designer.cs">
+      <DependentUpon>InitializerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog对话框\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager管理器\AMDMInfoManager.cs" />
+    <Compile Include="Model模型定义\CALLBACKS.cs" />
+    <Compile Include="Manager管理器\CameraSnapshotCapturer.cs" />
+    <Compile Include="Manager管理器\ControlAnimationRenderingController.cs" />
+    <Compile Include="Manager管理器\IMedicinesGettingController.cs" />
+    <Compile Include="Comuunicator连接器\IPLCCommunicator.cs" />
+    <Compile Include="Comuunicator连接器\IPLCCommunicator4Main.cs" />
+    <Compile Include="Comuunicator连接器\IPLCCommunicator4Stock_bak.cs" />
+    <Compile Include="Comuunicator连接器\IPLCCommunicator4StockTesting.cs" />
+    <Compile Include="Manager管理器\KeyManager.cs" />
+    <Compile Include="Model模型定义\MedicineGettingTask.cs" />
+    <Compile Include="Comuunicator连接器\PLCCommunicator.cs" />
+    <Compile Include="Model模型定义\ENUMS.cs" />
+    <Compile Include="Comuunicator连接器\PLCCommunicator4Stock.cs" />
+    <Compile Include="Comuunicator连接器\PLCCommunicator4StockTesting.cs" />
+    <Compile Include="Comuunicator连接器\PLCCommunicatorMain.cs" />
+    <Compile Include="Model模型定义\StartMedicinesGettingResult.cs" />
+    <Compile Include="Page主页面\MedicineBindingManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Page主页面\MedicineBindingManageForm.Designer.cs">
+      <DependentUpon>MedicineBindingManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog对话框\MedicineBoxInfoInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\MedicineBoxInfoInputForm.Designer.cs">
+      <DependentUpon>MedicineBoxInfoInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog对话框\MedicineSpacilSizeInfoInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\MedicineSpacilSizeInfoInputForm.Designer.cs">
+      <DependentUpon>MedicineSpacilSizeInfoInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog对话框\VisualKeyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\VisualKeyboard.Designer.cs">
+      <DependentUpon>VisualKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comuunicator连接器\ModbusFactoryExtensions.cs" />
+    <Compile Include="Comuunicator连接器\SerialPortAdapter.cs" />
+    <Compile Include="ControlPanel控制面板\ControlPanel.cs" />
+    <Compile Include="ControlPanel控制面板\ControlPanelInterfaceServer.cs" />
+    <Compile Include="Manager管理器\DeliveryRecordPaperPrinter.cs" />
+    <Compile Include="Manager管理器\GridMedicineBiddingManager.cs" />
+    <Compile Include="ControlPanel控制面板\HTTPServer.cs" />
+    <Compile Include="Manager管理器\InventoryManager.cs" />
+    <Compile Include="Manager管理器\MedicineManager.cs" />
+    <Compile Include="Manager管理器\MedicinesGettingController.cs" />
+    <Compile Include="Manager管理器\StocksGridNumber485ShowersManager.cs" />
+    <Compile Include="Manager管理器\TTSSpeaker.cs" />
+    <Compile Include="Manager管理器\UserManager.cs" />
+    <Compile Include="Dialog对话框\MedicineCountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\MedicineCountForm.Designer.cs">
+      <DependentUpon>MedicineCountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page主页面\MedicineDeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Page主页面\MedicineDeliveryForm.Designer.cs">
+      <DependentUpon>MedicineDeliveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page主页面\MedicineInventoryManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Page主页面\MedicineInventoryManageForm.Designer.cs">
+      <DependentUpon>MedicineInventoryManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponent控件\MedicineOrderDetailShower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIComponent控件\MedicineOrderDetailShower.Designer.cs">
+      <DependentUpon>MedicineOrderDetailShower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dialog对话框\ResetInventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog对话框\ResetInventoryForm.Designer.cs">
+      <DependentUpon>ResetInventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel控制面板\RequestAndResponse.cs" />
+    <Compile Include="Monitor监测器\HardwareMonitor.cs" />
+    <Compile Include="Monitor监测器\MedicineMonitor.cs" />
+    <Compile Include="Monitor监测器\MonitersManager.cs" />
+    <Compile Include="Monitor监测器\SoftwarePartMonitor.cs" />
+    <Compile Include="Monitor监测器\TimeSignalGenerator.cs" />
+    <EmbeddedResource Include="Modal模态全屏窗\BindingActionsForm.resx">
+      <DependentUpon>BindingActionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\ExpirationDataSelectForm.resx">
+      <DependentUpon>ExpirationDataSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\FloorEditForm.resx">
+      <DependentUpon>FloorEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\DaySelectForm.resx">
+      <DependentUpon>DaySelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\MonthSelectForm.resx">
+      <DependentUpon>MonthSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\YearsSelectForm.resx">
+      <DependentUpon>YearsSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\FullScreenMedicineOrderShower.resx">
+      <DependentUpon>FullScreenMedicineOrderShower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\FullScreenNoticeShower.resx">
+      <DependentUpon>FullScreenNoticeShower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\FullScreenVideoShowerV2.resx">
+      <DependentUpon>FullScreenVideoShowerV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\FullScreenVideoShower_bak.resx">
+      <DependentUpon>FullScreenVideoShower_bak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal模态全屏窗\InitializerForm.resx">
+      <DependentUpon>InitializerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page主页面\MedicineBindingManageForm.resx">
+      <DependentUpon>MedicineBindingManageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\MedicineBoxInfoInputForm.resx">
+      <DependentUpon>MedicineBoxInfoInputForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\MedicineCountForm.resx">
+      <DependentUpon>MedicineCountForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page主页面\MedicineDeliveryForm.resx">
+      <DependentUpon>MedicineDeliveryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page主页面\MedicineInventoryManageForm.resx">
+      <DependentUpon>MedicineInventoryManageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIComponent控件\MedicineOrderDetailShower.resx">
+      <DependentUpon>MedicineOrderDetailShower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\MedicineSpacilSizeInfoInputForm.resx">
+      <DependentUpon>MedicineSpacilSizeInfoInputForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Dialog对话框\ResetInventoryForm.resx">
+      <DependentUpon>ResetInventoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog对话框\VisualKeyboard.resx">
+      <DependentUpon>VisualKeyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MyCode\MyCode\MyCode.csproj">
+      <Project>{5b36daab-b384-4110-917c-ef296af9aebb}</Project>
+      <Name>MyCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Util\EasyModbusTCP.NET-master\EasyModbus\EasyModbus_Net40.csproj">
+      <Project>{7657fc4a-aedf-4f17-b3e9-0d0dfb1ce23b}</Project>
+      <Name>EasyModbus_Net40</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Util\EasyNamedPipe\EasyNamedPipe.csproj">
+      <Project>{472cba49-d3cd-40ef-830d-6d7438f76389}</Project>
+      <Name>EasyNamedPipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Util\MysqlClient\MysqlClient.csproj">
+      <Project>{cdaed5df-4651-4026-87fd-71e7b3228b60}</Project>
+      <Name>MysqlClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Util\NormanWebsocket-Sharp\websocket-sharp.csproj">
+      <Project>{b357bac7-529e-4d81-a0d2-71041b19c8de}</Project>
+      <Name>websocket-sharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Web&amp;Net\AutoUpdate\AutoUpdate\AutoUpdate.csproj">
+      <Project>{4063341e-1d4d-4d95-b1a0-3e29888073ef}</Project>
+      <Name>AutoUpdate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Web&amp;Net\DomainBase\DomainBase.csproj">
+      <Project>{49aa868a-2f48-4bbe-a793-438c15873ef4}</Project>
+      <Name>DomainBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\海康威视\CCTVCapturer\CCTVCapturer\CCTVCapturer.csproj">
+      <Project>{077ffb29-ea44-4f1a-9ec7-000bf0735cb9}</Project>
+      <Name>CCTVCapturer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMDMDomain\AMDM_Domain.csproj">
+      <Project>{2910fc9b-8acf-431f-9af9-573998526463}</Project>
+      <Name>AMDM_Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMDM_Client_SDK\AMDM_Client_SDK.csproj">
+      <Project>{9bf4a36f-80e4-4702-9093-e024d09a0682}</Project>
+      <Name>AMDM_Client_SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMDM_Server_SDK\AMDM_Server_SDK.csproj">
+      <Project>{9ee91e45-f3a3-47ec-8343-39e66116029e}</Project>
+      <Name>AMDM_Server_SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutoMedicinesGettingTester\AutoMedicinesGettingTester.csproj">
+      <Project>{72a2d6da-efd3-4590-a52e-5c4c131c7f68}</Project>
+      <Name>AutoMedicinesGettingTester</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeHISServerConnector\FakeHISServerConnector.csproj">
+      <Project>{ace4caaa-4a56-43f9-8f74-874893bbe7e3}</Project>
+      <Name>FakeHISServerConnector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

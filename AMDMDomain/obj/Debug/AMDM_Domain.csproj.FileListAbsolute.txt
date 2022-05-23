@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\AMDM_Domain.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\AMDM_Domain.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.pdb
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\AMDM_Domain.dll
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\AMDM_Domain.pdb
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.dll
+D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDMDomain\obj\Debug\AMDM_Domain.pdb

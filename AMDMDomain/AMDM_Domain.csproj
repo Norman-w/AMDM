@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2910FC9B-8ACF-431F-9AF9-573998526463}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMDM_Domain</RootNamespace>
+    <AssemblyName>AMDM_Domain</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Include\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Callback.cs" />
+    <Compile Include="DataObject\AMDM_DeliveryRecord.cs" />
+    <Compile Include="DataObject\AMDM_DeliveryRecordDetail.cs" />
+    <Compile Include="DataObject\AMDM_Floor.cs" />
+    <Compile Include="DataObject\AMDM_Grid.cs" />
+    <Compile Include="DataObject\AMDM_GridInventory.cs" />
+    <Compile Include="DataObject\AMDM_ClipInOutRecordSnap.cs" />
+    <Compile Include="DataObject\AMDM_Grid__Clip__Medicine.cs" />
+    <Compile Include="DataObject\AMDM_InstockRecord.cs" />
+    <Compile Include="DataObject\AMDM_InstockRecordDetail.cs" />
+    <Compile Include="DataObject\AMDM_Machine.cs" />
+    <Compile Include="DataObject\AMDM_Medicine.cs" />
+    <Compile Include="DataObject\AMDM_MedicineInventory.cs" />
+    <Compile Include="DataObject\AMDM_MedicineObject.cs" />
+    <Compile Include="DataObject\AMDM_MedicineObject__Clip__Grid__Medicine.cs" />
+    <Compile Include="DataObject\AMDM_MedicineObject__Grid__Medicine - 复制.cs" />
+    <Compile Include="DataObject\AMDM_MedicineObject__Medicine.cs" />
+    <Compile Include="DataObject\AMDM_MedicineObject__Grid.cs" />
+    <Compile Include="DataObject\AMDM_Nurse.cs" />
+    <Compile Include="DataObject\AMDM_Snapshot.cs" />
+    <Compile Include="DataObject\AMDM_Stock.cs" />
+    <Compile Include="DataObject\ENUMS.cs" />
+    <Compile Include="DataObject\AMDM_Clip.cs" />
+    <Compile Include="DataObject\AMDM_MedicineOrder_data.cs" />
+    <Compile Include="DataObject\AMDM_MedicineOrderDetail.cs" />
+    <Compile Include="DataObject\IAMDM_Clip.cs" />
+    <Compile Include="DataObject\IAMDM_Grid_data.cs" />
+    <Compile Include="DataObject\IAMDM_Grid_Ex.cs" />
+    <Compile Include="DataObject\IAMDM_Medicine.cs" />
+    <Compile Include="DataObject\IAMDM_MedicineObject_data.cs" />
+    <Compile Include="DataObject\IAMDM_PatientInfo.cs" />
+    <Compile Include="DataObject\Role\Account.cs" />
+    <Compile Include="Debug\DevDebugSettingRewriter.cs" />
+    <Compile Include="ENUMS.cs" />
+    <Compile Include="Interface\IHISServerConnector.cs" />
+    <Compile Include="KeyParam.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\AlertManagerSetting.cs" />
+    <Compile Include="Setting\DebugSetting.cs" />
+    <Compile Include="Setting\IAMDM_PLCModbusSerialPortSetting.cs" />
+    <Compile Include="Setting\IAMDM_PLCSetting.cs" />
+    <Compile Include="Setting\IAMDM_PLCTCPSetting.cs" />
+    <Compile Include="Setting\IPLCSetting.cs" />
+    <Compile Include="Setting\MedicinePLCSetting.cs" />
+    <Compile Include="Setting\Setting.cs" />
+    <Compile Include="Setting\TimeSignalGeneratorSettingClass.cs" />
+    <Compile Include="UIDataObject\AMDMStatus.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

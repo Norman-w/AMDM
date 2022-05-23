@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9EE91E45-F3A3-47EC-8343-39E66116029E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMDM_Server_SDK</RootNamespace>
+    <AssemblyName>AMDM_Server_SDK</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AMDMServerSDK.cs" />
+    <Compile Include="Domain\AccountAdd.cs" />
+    <Compile Include="Domain\AccountDelete.cs" />
+    <Compile Include="Domain\AccountsGet.cs" />
+    <Compile Include="Domain\AccountUpdate.cs" />
+    <Compile Include="Domain\Login.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLDataTransmitter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MyCode\MyCode\MyCode.csproj">
+      <Project>{5b36daab-b384-4110-917c-ef296af9aebb}</Project>
+      <Name>MyCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Util\MysqlClient\MysqlClient.csproj">
+      <Project>{cdaed5df-4651-4026-87fd-71e7b3228b60}</Project>
+      <Name>MysqlClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Web&amp;Net\DomainBase\DomainBase.csproj">
+      <Project>{49aa868a-2f48-4bbe-a793-438c15873ef4}</Project>
+      <Name>DomainBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AMDMDomain\AMDM_Domain.csproj">
+      <Project>{2910fc9b-8acf-431f-9af9-573998526463}</Project>
+      <Name>AMDM_Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

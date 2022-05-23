@@ -1,0 +1,8 @@
+{
+  "PrivateKey": "<RSAKeyValue><Modulus>y3Lt4TqXAY4PV6OrBdR6vigaTSB8kZOc7Lo/J4qPlulnS+vihspT9Nw4a/+wBVnCduRIuAw0QNRqJXvRosIp5MqSRChVwvHnu+eD0zYjc5Os7jNk6a4uji1Cmt6rQL2NTBRunFgDWurun6UA4jdfUECdLvUC+9r157OsiXiaUHE=</Modulus><Exponent>AQAB</Exponent><P>+wJE3TFwOHzvrD4mIufw2RWJISIH0z6SdmjJCky6/ADdW+Uebersdd7VnhTd2UvG1nB8cdd556P3GzDtmQiRlw==</P><Q>z36P4qFsQ9A1MPQDC4LfeqG6TVG5owt/rEQqBfqOMa7BcKJM//mUyyelLCitz0J39ooHgZlNi2wf6Gb1o6RfNw==</Q><DP>nFeJdQx6DXUkA3CiaFN3XH9hblW38gejSkVyEww/2v7e4YIQNf6BUdl9zHzKwbHFI4PkvzOrJnCmVTVgiFUh+Q==</DP><DQ>F/4QcSotNKIspF5yw6/8W1e8DRi4GGxJ9QdkvJA+ROxqHbYGpUqcs+j/pl2Fy4NqD63iNFAfsVFtVxggqy1kfQ==</DQ><InverseQ>hdRckiQfUvG4cmyreOtfcYhIRkUJ7RxaB+at8q/5ySrw2j4mramNg2CXAIWiG2saYg0p530653EFQ3JMnhbdmg==</InverseQ><D>AhxnK3cYKgP3VMl19NGHlIGGBFbZ9Ai8EBi+nwJpCv/Q+pCwAQYIaPn/+97jTKrpwaIMvxwhTqrljw4B1tZ86MYPaECFWy7NM9P/lOwPlmILgoIYnno1/LN/agZSMzdi7XFZjMBhIZEJv5glfrhsoum4Pl39zl1lnQy2qiLlC6E=</D></RSAKeyValue>",
+  "SN": "RWX50Y72",
+  "DeviceInfoJSON": "{\"CPUSN\":\"BFEBFBFF000906E9\",\"HarddiskSN\":\"3259f6bc0ea78f5061208df243e7c73d\",\"MAC\":\"00:1C:42:20:CD:26\"}",
+  "PublicKey": "<RSAKeyValue><Modulus>y3Lt4TqXAY4PV6OrBdR6vigaTSB8kZOc7Lo/J4qPlulnS+vihspT9Nw4a/+wBVnCduRIuAw0QNRqJXvRosIp5MqSRChVwvHnu+eD0zYjc5Os7jNk6a4uji1Cmt6rQL2NTBRunFgDWurun6UA4jdfUECdLvUC+9r157OsiXiaUHE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>",
+  "CreateTime": "2022-03-14T14:22:49.434+08:00",
+  "ExpirateTime": "2023-03-14T14:22:49.434+08:00"
+}

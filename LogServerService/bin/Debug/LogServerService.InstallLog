@@ -1,0 +1,13 @@
+﻿正在安装程序集“D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe
+   logfile = D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.InstallLog
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe 程序集中可能可以找到“Yes”属性。
+正在提交程序集“D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe
+   logfile = D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.InstallLog
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\LogServerService.exe 程序集中可能可以找到“Yes”属性。
+没有安装程序，因此移除 InstallState 文件。

@@ -1,0 +1,23 @@
+{
+  "Machine": {
+    "Stocks": [],
+    "Id": 0,
+    "Name": null,
+    "SerialNumber": "RWX50Y72",
+    "HospitalName": null,
+    "PharmacyId": 0,
+    "PharmacyName": null,
+    "SetupEngineer": null,
+    "SetupTime": null,
+    "ProductionTime": "2022-03-09T15:35:33.212+08:00",
+    "IndexOfPharmacy": 0,
+    "SoftwarePublickKey": "<RSAKeyValue><Modulus>y3Lt4TqXAY4PV6OrBdR6vigaTSB8kZOc7Lo/J4qPlulnS+vihspT9Nw4a/+wBVnCduRIuAw0QNRqJXvRosIp5MqSRChVwvHnu+eD0zYjc5Os7jNk6a4uji1Cmt6rQL2NTBRunFgDWurun6UA4jdfUECdLvUC+9r157OsiXiaUHE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
+  },
+  "Parts": null,
+  "AMDMAppInstallPath": "D:\\AMDM",
+  "AMDMAppInstallTime": null,
+  "LocalMysqlInstallPath": null,
+  "LocalMysqlInstallTime": null,
+  "LogServerConfiggerInstallPath": null,
+  "LogServerConfigerInstallPath": null
+}

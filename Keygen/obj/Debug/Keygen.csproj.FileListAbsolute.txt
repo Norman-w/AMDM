@@ -1,0 +1,15 @@
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\Keygen.exe.config
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\Keygen.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\Keygen.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\MyCode.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\Interop.SpeechLib.dll
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\bin\Debug\MyCode.pdb
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.Main.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.模拟客户端使用公钥和签名.resources
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.exe
+\\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\Keygen\obj\Debug\Keygen.pdb

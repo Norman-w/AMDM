@@ -1,0 +1,54 @@
+
+using System.Collections.Generic;
+using System.Text;
+
+public class SignFileName
+
+{
+    public string Get()
+    {
+        List<int> ints = new List<int>();
+
+		ints.Add(56);
+		ints.Add(98);
+		ints.Add(54);
+		ints.Add(53);
+		ints.Add(98);
+		ints.Add(49);
+		ints.Add(57);
+		ints.Add(98);
+		ints.Add(54);
+		ints.Add(48);
+		ints.Add(98);
+		ints.Add(102);
+		ints.Add(52);
+		ints.Add(56);
+		ints.Add(50);
+		ints.Add(57);
+		ints.Add(57);
+		ints.Add(97);
+		ints.Add(99);
+		ints.Add(97);
+		ints.Add(52);
+		ints.Add(100);
+		ints.Add(53);
+		ints.Add(53);
+		ints.Add(54);
+		ints.Add(99);
+		ints.Add(51);
+		ints.Add(99);
+		ints.Add(53);
+		ints.Add(100);
+		ints.Add(49);
+		ints.Add(50);
+
+
+        StringBuilder sb = new StringBuilder();
+        foreach (int i in ints)
+        {
+            char b = (char)i;
+            sb.Append(b);
+        }
+        return sb.ToString();
+    }
+}

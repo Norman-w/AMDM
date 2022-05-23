@@ -1,0 +1,246 @@
+时间:2021/12/16 19:04:57 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/16 19:04:57
+调试模式?:True
+配置文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/16 19:04:57 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/16 19:04:57 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/16 19:05:00 标题:客户端已连接管道服务器 消息: 级别Info 参数:0336c04a459b496780e9f4d8fd5c77f4
+时间:2021/12/16 19:05:00 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:00.221+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:00.221+08:00","Type":1} 级别Info 参数:0336c04a459b496780e9f4d8fd5c77f4
+时间:2021/12/16 19:05:04 标题:客户端从管道服务器断开 消息: 级别Info 参数:
+时间:2021/12/16 19:05:10 标题:客户端心跳超时,可能已经死亡,正在抢救 消息:客户端上次的心跳时间是:2021/12/16 19:05:00,发现已经需要抢救的时候,已经过去了10438毫秒 正在准备施救(杀死换人) 级别Error 参数:
+时间:2021/12/16 19:05:10 信息:关闭所有已存在客户端完成 详细信息:当前存在的该名称进程数量:0
+
+时间:2021/12/16 19:05:10 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/16 19:05:10 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/16 19:05:12 标题:客户端已连接管道服务器 消息: 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:12 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:12.463+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:12.463+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:16.476+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:16.476+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:20.476+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:20.476+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:24.478+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:24.478+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:28 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:28.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:28.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:32 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:32.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:32.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:36 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:36.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:36.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:40 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:40.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:40.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:44 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:44.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:44.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:48 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:48.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:48.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:52 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:52.479+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:52.479+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:05:56 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:05:56.481+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:05:56.481+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:00 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:00.481+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:00.481+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:04 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:04.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:04.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:08 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:08.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:08.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:12 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:12.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:12.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:16.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:16.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:20.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:20.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:24.483+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:24.483+08:00","Type":1} 级别Info 参数:e44d7f90e0ee4a28a3c930a7958b781f
+时间:2021/12/16 19:06:26 标题:客户端从管道服务器断开 消息: 级别Info 参数:
+时间:2021/12/16 19:06:34 标题:客户端心跳超时,可能已经死亡,正在抢救 消息:客户端上次的心跳时间是:2021/12/16 19:06:24,发现已经需要抢救的时候,已经过去了10006毫秒 正在准备施救(杀死换人) 级别Error 参数:
+时间:2021/12/16 19:06:34 信息:关闭所有已存在客户端完成 详细信息:当前存在的该名称进程数量:0
+
+时间:2021/12/16 19:06:34 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/16 19:06:34 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/16 19:06:36 标题:客户端已连接管道服务器 消息: 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:36 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:36.731+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:36.732+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:40 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:40.756+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:40.756+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:44 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:44.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:44.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:48 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:48.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:48.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:52 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:52.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:52.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:06:56 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:06:56.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:06:56.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:00 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:00.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:00.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:04 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:04.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:04.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:08 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:08.757+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:08.757+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:12 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:12.758+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:12.758+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:16.758+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:16.758+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:20.758+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:20.758+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:24.76+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:24.76+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:28 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:28.76+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:28.76+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:32 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:32.765+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:32.765+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:36 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:36.765+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:36.765+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:40 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:40.765+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:40.765+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:44 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:44.765+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:44.765+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:48 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:48.768+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:48.768+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:52 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:52.768+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:52.768+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:07:56 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:07:56.777+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:07:56.777+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:00 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:00.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:00.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:04 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:04.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:04.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:08 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:08.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:08.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:12 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:12.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:12.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:16.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:16.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:20.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:20.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:24.782+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:24.782+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:28 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:28.79+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:28.79+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:32 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:32.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:32.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:36 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:36.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:36.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:40 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:40.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:40.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:44 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:44.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:44.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:48 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:48.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:48.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:52 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:52.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:52.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:08:56 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:08:56.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:08:56.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:00 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:00.793+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:00.793+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:04 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:04.803+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:04.803+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:08 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:08.803+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:08.803+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:12 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:12.803+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:12.803+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:16.803+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:16.803+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:20.805+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:20.805+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:24.805+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:24.805+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:28 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:28.805+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:28.805+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:32 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:32.805+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:32.805+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:36 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:36.807+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:36.807+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:40 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-16T19:09:40.844+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-16T19:09:40.844+08:00","Type":1} 级别Info 参数:8a0572645c6944b1a970a3a05a402251
+时间:2021/12/16 19:09:42 标题:客户端从管道服务器断开 消息: 级别Info 参数:
+时间:2021/12/17 9:55:16 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 9:55:16
+调试模式?:True
+配置文件路径:c:\付药机看门狗服务\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:02:24 信息:获取客户端程序时,检测到位置发生变化 详细信息:原位置:c:\付药机看门狗服务\客户端程序.exe 新位置:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe 新位置是否有效?:True
+
+时间:2021/12/17 10:02:24 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:02:24 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/17 10:02:29 标题:客户端已连接管道服务器 消息: 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:29 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:29.2258+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:29.2258+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:33 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:33.2408+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:33.2408+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:37 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:37.2408+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:37.2408+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:41 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:41.2418+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:41.2418+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:45 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:45.2458+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:45.2458+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:49 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:49.2458+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:49.2458+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:53 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:02:53.2458+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:02:53.2458+08:00","Type":1} 级别Info 参数:8fb41bd83a1f4b43ac1655055fa8f2af
+时间:2021/12/17 10:02:55 标题:客户端从管道服务器断开 消息: 级别Info 参数:
+时间:2021/12/17 10:03:03 标题:客户端心跳超时,可能已经死亡,正在抢救 消息:客户端上次的心跳时间是:2021/12/17 10:02:53,发现已经需要抢救的时候,已经过去了10396毫秒 正在准备施救(杀死换人) 级别Error 参数:
+时间:2021/12/17 10:03:03 信息:关闭所有已存在客户端完成 详细信息:当前存在的该名称进程数量:0
+
+时间:2021/12/17 10:03:03 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:03:03 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/17 10:03:05 标题:客户端已连接管道服务器 消息: 级别Info 参数:f94ef641cc58439fa331384d473570c2
+时间:2021/12/17 10:03:05 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:03:05.7628+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:03:05.7628+08:00","Type":1} 级别Info 参数:f94ef641cc58439fa331384d473570c2
+时间:2021/12/17 10:03:09 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:03:09.7758+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:03:09.7758+08:00","Type":1} 级别Info 参数:f94ef641cc58439fa331384d473570c2
+时间:2021/12/17 10:03:10 标题:客户端从管道服务器断开 消息: 级别Info 参数:
+时间:2021/12/17 10:03:24 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:03:24
+调试模式?:True
+配置文件路径:c:\付药机看门狗服务\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:03:57 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:03:57
+调试模式?:True
+配置文件路径:c:\付药机看门狗服务\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:04:39 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:04:39
+调试模式?:False
+配置文件路径:c:\付药机看门狗服务\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:04:39 信息:已进入正常逻辑 详细信息:准备查找客户端文件D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:04:39 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:04:39 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/17 10:04:42 标题:客户端已连接管道服务器 消息: 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:04:42 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:04:42.0434+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:04:42.0434+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:04:46 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:04:46.0534+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:04:46.0534+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:04:50 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:04:50.0534+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:04:50.0534+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:04:54 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:04:54.0534+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:04:54.0534+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:04:58 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:04:58.0554+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:04:58.0554+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:05:02 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:02.0574+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:02.0574+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:05:06 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:06.0664+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:06.0664+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:05:10 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:10.0684+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:10.0684+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:05:14 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:14.0724+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:14.0724+08:00","Type":1} 级别Info 参数:1ff176bcf1e542b79ed1def8bec7beb2
+时间:2021/12/17 10:05:42 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:05:42
+调试模式?:False
+配置文件路径:c:\付药机看门狗服务\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:05:42 信息:已进入正常逻辑 详细信息:准备查找客户端文件D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:05:42 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:05:42 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/17 10:05:43 标题:客户端已连接管道服务器 消息: 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:05:44 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:43.8714+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:43.8714+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:05:47 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:47.9444+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:47.9444+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:05:51 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:51.9444+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:51.9444+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:05:55 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:55.9444+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:55.9444+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:05:59 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:05:59.9464+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:05:59.9464+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:03 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:03.9484+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:03.9484+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:07 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:07.9484+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:07.9484+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:11 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:11.9504+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:11.9504+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:15 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:15.9544+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:15.9544+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:19 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:19.9544+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:19.9544+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:23 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:23.9584+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:23.9584+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:27 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:27.9594+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:27.9594+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:31 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:31.9594+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:31.9594+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:35 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:35.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:35.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:39 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:39.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:39.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:43 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:43.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:43.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:47 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:47.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:47.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:51 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:51.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:51.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:55 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:55.9614+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:55.9614+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:06:59 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:06:59.9654+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:06:59.9654+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:03 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:03.9694+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:03.9694+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:07 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:07.9694+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:07.9694+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:11 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:11.9714+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:11.9714+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:15 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:15.9724+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:15.9724+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:19 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:19.9744+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:19.9744+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:23 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:23.9764+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:23.9764+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:27 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:27.9784+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:27.9784+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:31 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:31.9814+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:31.9814+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:35 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:35.9834+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:35.9834+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:39 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:39.9854+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:39.9854+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:43 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:43.9864+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:43.9864+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:47 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:47.9864+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:47.9864+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:07:51 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:07:51.9924+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:07:51.9924+08:00","Type":1} 级别Info 参数:b210b67b4b934deeb7810dc9ac88c033
+时间:2021/12/17 10:35:14 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:35:14
+调试模式?:True
+配置文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:35:14 信息:已进入正常逻辑 详细信息:准备查找客户端文件D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:35:14 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:35:14 信息:客户端已启动 详细信息:客户端当前状态Started
+
+时间:2021/12/17 10:35:16 标题:客户端已连接管道服务器 消息: 级别Info 参数:4cb2e95225b34a7ba486d68c4129ae5c
+时间:2021/12/17 10:35:16 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:35:16.556+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:35:16.556+08:00","Type":1} 级别Info 参数:4cb2e95225b34a7ba486d68c4129ae5c
+时间:2021/12/17 10:35:20 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:35:20.647+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:35:20.647+08:00","Type":1} 级别Info 参数:4cb2e95225b34a7ba486d68c4129ae5c
+时间:2021/12/17 10:35:24 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:35:24.647+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:35:24.647+08:00","Type":1} 级别Info 参数:4cb2e95225b34a7ba486d68c4129ae5c
+时间:2021/12/17 10:35:28 标题:客户端心跳 消息:{"HeartbeatsTime":"2021-12-17T10:35:28.647+08:00","ValidTimeMS":10000.0,"OtherMessage":null,"SendTime":"2021-12-17T10:35:28.647+08:00","Type":1} 级别Info 参数:4cb2e95225b34a7ba486d68c4129ae5c
+时间:2021/12/17 10:36:00 信息:线程已启动 详细信息:
+进入到服务bw_DoWork当前时间:2021/12/17 10:36:00
+调试模式?:True
+配置文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\setting.xml
+日志文件路径:D:\Visual Studio 2008\Projects\测试\FakeHISClient\LogServerService\bin\Debug\defaultLogFile.log
+
+
+时间:2021/12/17 10:36:00 信息:已进入正常逻辑 详细信息:准备查找客户端文件D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:36:00 信息:客户端已找到,准备启动 详细信息:客户端程序地址:D:\Visual Studio 2008\Projects\测试\FakeHISClient\AMDM\bin\Debug\amdm.exe
+
+时间:2021/12/17 10:36:00 信息:客户端已启动 详细信息:客户端当前状态Started
+
