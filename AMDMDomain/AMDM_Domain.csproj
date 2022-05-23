@@ -76,15 +76,26 @@
     <Compile Include="Interface\IHISServerConnector.cs" />
     <Compile Include="KeyParam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\AdvertVideosSettingClass.cs" />
     <Compile Include="Setting\AlertManagerSetting.cs" />
+    <Compile Include="Setting\AMDMServerSDKSettingClass.cs" />
+    <Compile Include="Setting\ControlPanelInterfaceServerSettingClass.cs" />
     <Compile Include="Setting\DebugSetting.cs" />
+    <Compile Include="Setting\DevicesSettingClass.cs" />
+    <Compile Include="Setting\ExpirationStrictControlSettingClass.cs" />
+    <Compile Include="Setting\HardwareSettingClass.cs" />
     <Compile Include="Setting\IAMDM_PLCModbusSerialPortSetting.cs" />
     <Compile Include="Setting\IAMDM_PLCSetting.cs" />
     <Compile Include="Setting\IAMDM_PLCTCPSetting.cs" />
     <Compile Include="Setting\IPLCSetting.cs" />
+    <Compile Include="Setting\LogServerServiceSettingClass.cs" />
+    <Compile Include="Setting\MedicineAlertSettingClass.cs" />
     <Compile Include="Setting\MedicinePLCSetting.cs" />
     <Compile Include="Setting\Setting.cs" />
+    <Compile Include="Setting\SqlConfigClass.cs" />
     <Compile Include="Setting\TimeSignalGeneratorSettingClass.cs" />
+    <Compile Include="Setting\TroubleshootingPlanSettingClass.cs" />
+    <Compile Include="Setting\UserInterfaceSettingClass.cs" />
     <Compile Include="UIDataObject\AMDMStatus.cs" />
   </ItemGroup>
   <ItemGroup />

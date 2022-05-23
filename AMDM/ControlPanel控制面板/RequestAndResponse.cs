@@ -152,7 +152,7 @@ public class AMDMSettingGetResponse
     /// <summary>
     /// 获取到的自动付药机的设置
     /// </summary>
-    public Setting AMDMSetting { get; set; }
+    public AMDMSetting AMDMSetting { get; set; }
     /// <summary>
     /// 是否发生错误
     /// </summary>

@@ -86,7 +86,7 @@ namespace AMDM
                 Utils.LogInfo("已经进行过app对象的初始化");
                 return;
             }
-            Setting = new Setting();
+            Setting = new AMDMSetting();
 
 
             #region 设置回调函数
@@ -614,7 +614,7 @@ namespace AMDM
         /// <summary>
         /// 全局app设置.
         /// </summary>
-        public static Setting Setting;// = new Setting();
+        public static AMDMSetting Setting;// = new Setting();
         //public static MedicinePLCSetting plcSetting = new MedicinePLCSetting();
         #endregion
         #region 组件变量和组件相关的处理函数

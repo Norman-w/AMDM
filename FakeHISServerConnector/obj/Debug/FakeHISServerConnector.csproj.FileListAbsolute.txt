@@ -18,3 +18,13 @@ D:\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\D
 D:\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.csprojResolveAssemblyReference.cache
 D:\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.dll
 D:\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\FakeHISServerConnector.dll
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\FakeHISServerConnector.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\AMDM_Domain.dll
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\Newtonsoft.Json.dll
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\WebUtil.dll
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\WebUtil.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\bin\Debug\AMDM_Domain.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.dll
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.pdb
+\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISServerConnector\obj\Debug\FakeHISServerConnector.csprojResolveAssemblyReference.cache

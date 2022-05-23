@@ -70,4 +70,3 @@
 \\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISClient\bin\Debug\Keygen.pdb
 \\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISClient\bin\Debug\ICSharpCode.SharpZipLib.pdb
 \\Mac\Home\Documents\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISClient\bin\Debug\ICSharpCode.SharpZipLib.xml
-\\Mac\AllFiles\Volumes\NormanData\Visual Studio 2008\Projects\测试\FakeHISClient\FakeHISClient\obj\Debug\FakeHISClient.InputForm.resources
